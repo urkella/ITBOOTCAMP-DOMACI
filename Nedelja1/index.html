@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Uros Pavlovic - Portfolio</title>
+    <style>
+      * {
+      box-sizing: border-box;
+      }
+      body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      }
+      header {
+      position: relative;
+      background-color: #740;
+      padding: 96px 48px;
+      text-align: center;
+      font-size: 35px;
+      }
+      header h2 {
+      color: #fff;
+      margin: 0;
+      }
+      section {
+      display: flex;
+      background-color: #f1f1f1;
+      }
+      article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      }
+      section:after {
+      content: "";
+      display: table;
+      clear: both;
+      }
+      nav {
+      float: left;
+      width: 30%;
+      background: #ccc;
+      padding: 20px;
+      }
+      nav ul {
+      list-style-type: none;
+      padding: 0;
+      }
+      .telefon {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      display: flex;
+      align-items: center;
+      }
+      .telefon img {
+      height: 50px;
+      width: 50px;
+      }
+      .telefon span {
+      color: #fff;
+      font-size: 24px;
+      }
+      .dugme {
+      background: #740;
+      color: #fff;
+      border: 0;
+      padding: 12px 24px;
+      font-size: 18px;
+      border-radius: 5px;
+      margin-top: 10px;
+      }
+      .biografija {
+      font-family: Copperplate, Papyrus, fantasy;
+      }
+      .slika-wrapper {
+      height: 100%;
+      width: 100%;
+      }
+      .slika {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      }
+      .navigacija {
+      padding: 0;
+      }
+      footer {
+      background-color: #740;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      }
+      .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 24px;
+      }
+      .footer ul {
+      list-style: none;
+      }
+      .footer ul li {
+      margin-bottom: 5px;
+      font-family: Copperplate, Papyrus, fantasy;
+      }
+      .footer ul li:first-child {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-bottom: 10px;
+      }
+      .footer ul li:last-child {
+      margin-bottom: 0;
+      }
+      .footer ul li a {
+      color: #fff;
+      text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Pavlovic Uros</h2>
+      <div class="telefon">
+        <img src="https://icon-library.com/images/phone-icon-white-png/phone-icon-white-png-10.jpg" />
+        <span>+381692933221</span>
+      </div>
+    </header>
+    <section>
+      <nav class="navigacija">
+        <div class="slika-wrapper">
+          <img class="slika" src="img/slika.jpg" alt="Uros Pavlovic">
+        </div>
+      </nav>
+      </nav>
+      <article>
+        <h1>O meni</h1>
+        <p class="biografija">Cao svima.Ja se zovem Uros Pavlovic.Rodjen sam 01.03.1995 godine u Krusevcu.
+          Osnovnu skolu sam zavrsio u Stalacu,mestu pored Krusevca.Srednju skolu sam 
+          zavrsio u Varvarinu.Nakon zavrsene srednje skole upisujem Uciteljski fakultet u Beogradu.
+          Na fakultetu sam prolazio kros profesionalne prakse koje su mi mnogo toga doprinele.Profesionalne prakse 
+          su se odvijale u vrticima,iskljucivo rad sa decom.Bavio sam se i honorarnim poslovima i trenutno sam 
+          zavrsna godina fakulteta.
+        </p>
+        <p class="biografija">Snalazljiv sam,precizan i pouzdan.Volim timski rad i jako se osecam prijatno u drustvu sa kolegama.Tezim ka
+          konstantnom napredku i usvajam brzo nove stvari.Takodje sam lako prilagodljiv i umem da preuzmem inicijativu.
+          Jako kreativan i ambiciozan.
+        </p>
+        <p class="biografija">
+          Moj prvi posao je bio rad u kaficu.Radio sam kao konobar gde sam stekao neku osnovnu
+          radnu naviku.To sam radio 6 meseci.Nakon toga u Beogradu,bavio sam se cuvanjem dece honorarno.
+          Takodje mi je taj posao dosta novog iskustva doneo i radio sam ga 2 godine.
+          Kroz svoje poslove sam upoznao dosta ljudi,i ostvario dosta kontakta.
+          Inace u slobodno vreme se bavim rekreativno Boxom i kosarkom.
+        </p>
+        <button class="dugme">
+        Moj Github
+        </button>
+      </article>
+    </section>
+    <footer>
+      <div class="footer">
+        <ul>
+          <li>Kontakt</li>
+          <li><a href="https://facebook.com/ukica5/" target="_blank">Facebook</a></li>
+          <li><a href="https://instagram.com/ukica_p" target="_blank">Instagram</a></li>
+          <li><a href="mailto:urospavllovic@gmail.com">Email</a></li>
+        </ul>
+        <ul>
+          <li>Informacije</li>
+          <li>Restoran chill</li>
+          <li>As caffe</li>
+          <li>Gosa</li>
+        </ul>
+        <ul>
+          <li>Linkovi</li>
+          <li><a href="https://youtube.com">Youtube</a></li>
+          <li><a href="https://google.com">Google</a></li>
+          <li><a href="https://linkedin.com">Linkedin</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
