@@ -5,6 +5,8 @@ var zbir;
 var razlika;
 var proizvod;
 var kolicnik;
+var ostatak;
+var stepen;
 
 // Definisati brojeve
 var prviBroj = 7;
