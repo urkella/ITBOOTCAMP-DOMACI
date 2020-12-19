@@ -6,16 +6,20 @@ var hours = date.getHours(); // Trenutno vreme u satima
 // Funckija koja ispisuje poruku
 // baziranu na trenutnom vremenu
 function greetings(hours) {
+  // Dinamicna poruka
+  const poruka = (poruka) => {
+    return poruka + " Тренутно је " + hours + " часова.";
+  };
   if (hours < 12) {
     // Ako je manje od 12 casova
-    console.log("Добро јутро!");
+    return poruka("Добро јутро!");
   } else if (hours < 18) {
     // Ako je manje od 18 casova
-    console.log("Добар дан!");
+    return poruka("Добар дан!");
   } else {
-    console.log("Добро вече!");
+    return poruka("Добро вече!");
   }
 }
 
-// Pokrenuti funckiju
-greetings(hours);
+// Pokrenuti i ispisati funckiju
+console.log(greetings(hours));
