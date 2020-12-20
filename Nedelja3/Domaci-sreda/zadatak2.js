@@ -16,7 +16,7 @@ function pica(cenaPice, poluPrecnik) {
   } else {
     // Ukoliko unos jedan od oba parametra
     // nije validan ispisati gresku
-    console.log("Unos cene ili precnika nisu validni.");
+    return "Unos cene ili precnika nisu validni.";
   }
 }
 
