@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+
+    <!-- Favicon --> 
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- tsParticles container -->
+    <div id="tsparticles"></div>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <div class="wrapper__logo">
+            <img src="./assets/img/logo.png" alt="SpaceX" />
+        </div>
+        <div class="buttons">
+            <button id="ships">Ships</button>
+            <button id="launches">Launches</button>
+        </div>
+    </div>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+        <div class="popup__inner">
+            <div class="popup__photo">
+                <img src="./assets/img/landing.webp" alt="">
+            </div>
+            <div class="popup__text" id="popup-content">
+            </div>
+            <a id="popup-close" class="popup__close" href="#">X</a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
