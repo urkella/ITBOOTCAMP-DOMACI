@@ -1,0 +1,41 @@
+.ShoppingList {
+  /* Style */
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 24px;
+}
+
+.ShoppingList-heading,
+.ShoppingList-price {
+  margin: 0;
+}
+
+.ShoppingList-heading {
+  color: #484848;
+  margin: 0 0 5px;
+}
+
+.ShoppingList-price {
+  /* Font */
+  font-size: 24px;
+  font-weight: bold;
+  color: #282c34;
+}
+
+.ShoppingList-delete {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.ShoppingList-remove {
+  height: 16px;
+  width: 16px;
+}
+
+@media (min-width: 768px) {
+  .ShoppingList {
+    min-width: 250px;
+  }
+}
