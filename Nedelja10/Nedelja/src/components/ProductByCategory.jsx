@@ -22,9 +22,10 @@ const ProductByCategory = () => {
     return (
     <div>
             {categories.map(product => {
+                const bolded = categories && categories.length === 1;
                 return (
                     <div key={product.id}>
-                        <p>{`${product.name} --- ${product.category}`}</p>
+                        <p style={{ fontWeight: bolded ? 'bold' : 'normal'}}>{`${product.name} --- ${product.category}`}</p>
 
             </div>
         )
